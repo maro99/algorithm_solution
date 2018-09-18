@@ -1,0 +1,16 @@
+
+!ENTRY org.eclipse.core.resources 4 568 2018-09-19 00:21:00.072
+!MESSAGE Could not write workspace metadata '/home/nasanmaro/Desktop/projects/bookstudy/algorithm_solution/.metadata/.plugins/org.eclipse.core.resources/.snap'.
+!STACK 0
+java.io.FileNotFoundException: /home/nasanmaro/Desktop/projects/bookstudy/algorithm_solution/.metadata/.plugins/org.eclipse.core.resources/.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.snapTree(SaveManager.java:1450)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
